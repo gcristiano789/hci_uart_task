@@ -1,0 +1,23 @@
+# Available runners configured by board.cmake.
+runners:
+- pyocd
+
+# Default flash runner if --runner is not given.
+flash-runner: pyocd
+
+# Default debug runner if --runner is not given.
+debug-runner: pyocd
+
+# Default command line arguments. The ones in "common" are always given.
+# The other sub-keys give runner-specific arguments.
+args:
+  common:
+  - --board-dir=C:/Users/Admin/ncs/v1.3.1/zephyr/boards/arm/nrf52832_mdk
+  - --elf-file=C:/Users/Admin/ncs/v1.3.1/zephyr/samples/bluetooth/hci_uart_task/build_nrf52832_mdk/zephyr/zephyr.elf
+  - --hex-file=C:/Users/Admin/ncs/v1.3.1/zephyr/samples/bluetooth/hci_uart_task/build_nrf52832_mdk/zephyr/zephyr.hex
+  - --bin-file=C:/Users/Admin/ncs/v1.3.1/zephyr/samples/bluetooth/hci_uart_task/build_nrf52832_mdk/zephyr/zephyr.bin
+  - --gdb=C:/Users/Admin/ncs/v1.3.1/toolchain/opt/bin/arm-none-eabi-gdb.exe
+  - --openocd=OPENOCD-NOTFOUND
+  pyocd:
+    - --dt-flash=y
+    - --target=nrf52
