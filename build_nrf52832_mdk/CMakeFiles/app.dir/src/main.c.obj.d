@@ -128,4 +128,5 @@ CMakeFiles/app.dir/src/main.c.obj: ../src/main.c \
  C:/Users/Admin/ncs/v1.3.1/zephyr/include/bluetooth/hci.h \
  C:/Users/Admin/ncs/v1.3.1/zephyr/include/bluetooth/hci_err.h \
  C:/Users/Admin/ncs/v1.3.1/zephyr/include/bluetooth/conn.h \
- C:/Users/Admin/ncs/v1.3.1/zephyr/include/bluetooth/hci_raw.h
+ C:/Users/Admin/ncs/v1.3.1/zephyr/include/bluetooth/hci_raw.h \
+ zephyr/include/generated/at_command_bg96.h

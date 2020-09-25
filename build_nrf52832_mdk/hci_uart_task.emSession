@@ -1,0 +1,65 @@
+<!DOCTYPE CrossStudio_Session_File>
+<session>
+ <Bookmarks/>
+ <Breakpoints groups="Breakpoints" active_group="Breakpoints"/>
+ <ExecutionProfileWindow/>
+ <FrameBufferWindow>
+  <FrameBufferWindow bufferHeight="-1" addressSpace="" addressText="" bufferWidth="-1"/>
+ </FrameBufferWindow>
+ <Memory1/>
+ <Memory2/>
+ <Memory3/>
+ <Memory4/>
+ <Project>
+  <ProjectSessionItem path="hci_uart_task"/>
+  <ProjectSessionItem path="hci_uart_task;build"/>
+  <ProjectSessionItem path="hci_uart_task;build;all"/>
+  <ProjectSessionItem path="hci_uart_task;build;app/libapp.a"/>
+  <ProjectSessionItem path="hci_uart_task;build;app/libapp.a;C_COMPILER__app"/>
+  <ProjectSessionItem path="hci_uart_task;build;zephyr/kernel/libkernel.a"/>
+  <ProjectSessionItem path="hci_uart_task;build;zephyr/kernel/libkernel.a;C_COMPILER__kernel"/>
+  <ProjectSessionItem path="hci_uart_task;build;zephyr/subsys/bluetooth/host/libsubsys__bluetooth__host.a"/>
+  <ProjectSessionItem path="hci_uart_task;build;zephyr/subsys/bluetooth/host/libsubsys__bluetooth__host.a;C_COMPILER__subsys__bluetooth__host"/>
+  <ProjectSessionItem path="hci_uart_task;build;zephyr/subsys/net/libsubsys__net.a"/>
+  <ProjectSessionItem path="hci_uart_task;build;zephyr/subsys/net/libsubsys__net.a;C_COMPILER__subsys__net"/>
+ </Project>
+ <Register1/>
+ <Register2/>
+ <Register3/>
+ <Register4/>
+ <Threads>
+  <ThreadsWindow showLists=""/>
+ </Threads>
+ <TraceWindow>
+  <Trace enabled="Yes"/>
+ </TraceWindow>
+ <Watch1>
+  <Watches active="1" update="Never"/>
+ </Watch1>
+ <Watch2>
+  <Watches active="0" update="Never"/>
+ </Watch2>
+ <Watch3>
+  <Watches active="0" update="Never"/>
+ </Watch3>
+ <Watch4>
+  <Watches active="0" update="Never"/>
+ </Watch4>
+ <Files>
+  <SessionOpenFile windowGroup="DockEditLeft" x="9" y="28" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../src/main.c" selected="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="406" useTextEdit="1" openedFrom="C:/Users/Admin/ncs/v1.3.1/zephyr/samples/bluetooth/hci_uart_task/src/main.c" useBinaryEdit="0" left="0" path="../../../../subsys/net/buf.c" selected="0" top="400" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="536" useTextEdit="1" openedFrom="C:/Users/Admin/ncs/v1.3.1/zephyr/samples/bluetooth/hci_uart_task/src/main.c" useBinaryEdit="0" left="0" path="../../../../include/kernel.h" selected="0" top="518" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="143" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../../include/bluetooth/l2cap.h" selected="0" top="113" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="277" useTextEdit="1" openedFrom="C:/Users/Admin/ncs/v1.3.1/zephyr/samples/bluetooth/hci_uart_task/src/main.c" useBinaryEdit="0" left="0" path="../../../../subsys/bluetooth/host/hci_raw.c" selected="0" top="261" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="136" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../../include/bluetooth/hci_raw.h" selected="0" top="106" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="115" useTextEdit="1" openedFrom="C:/Users/Admin/ncs/v1.3.1/zephyr/samples/bluetooth/hci_uart_task/src/main.c" useBinaryEdit="0" left="0" path="../../../../include/sys/__assert.h" selected="0" top="97" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="79" useTextEdit="1" openedFrom="C:/Users/Admin/ncs/v1.3.1/zephyr/samples/bluetooth/hci_uart_task/src/main.c" useBinaryEdit="0" left="0" path="../../../../include/device.h" selected="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="255" useTextEdit="1" openedFrom="C:/Users/Admin/ncs/v1.3.1/zephyr/samples/bluetooth/hci_uart_task/src/main.c" useBinaryEdit="0" left="0" path="zephyr/include/generated/autoconf.h" selected="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="101" useTextEdit="1" openedFrom="C:/Users/Admin/ncs/v1.3.1/zephyr/samples/bluetooth/hci_uart_task/src/main.c" useBinaryEdit="0" left="0" path="zephyr/include/generated/syscalls/uart.h" selected="0" top="84" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="359" useTextEdit="1" openedFrom="C:/Users/Admin/ncs/v1.3.1/zephyr/samples/bluetooth/hci_uart_task/build_nrf52832_mdk/zephyr/include/generated/syscalls/uart.h" useBinaryEdit="0" left="0" path="../../../../include/drivers/uart.h" selected="0" top="341" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="1225" useTextEdit="1" openedFrom="C:/Users/Admin/ncs/v1.3.1/zephyr/samples/bluetooth/hci_uart_task/src/main.c" useBinaryEdit="0" left="0" path="../../../../include/net/buf.h" selected="0" top="1207" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="131" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="at_command_bg96.h" selected="0" top="96" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="28" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="main.c" selected="1" top="0" codecName="Default"/>
+ </Files>
+ <ARMCrossStudioWindow activeProject="all(build)" fileDialogDefaultFilter="" autoConnectTarget="J-Link" buildConfiguration="Common" sessionSettings="" debugSearchFileMap="" fileDialogInitialDirectory="C:/Users/Admin/ncs/v1.3.1/zephyr/samples/bluetooth/hci_uart_task/build_nrf52832_mdk" debugSearchPath="" autoConnectCapabilities="3199"/>
+</session>

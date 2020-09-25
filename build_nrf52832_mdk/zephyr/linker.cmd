@@ -45,16 +45,6 @@ SECTIONS
  {
 . = 0x0;
 . = ALIGN(4);
-. = 0x0;
-. = ALIGN(4);
-_vector_start = .;
-KEEP(*(.exc_vector_table))
-KEEP(*(".exc_vector_table.*"))
-KEEP(*(.gnu.linkonce.irq_vector_table))
-KEEP(*(.vectors))
-_vector_end = .;
-KEEP(*(.openocd_dbg))
-KEEP(*(".openocd_dbg.*"))
 _vector_start = .;
 KEEP(*(.exc_vector_table))
 KEEP(*(".exc_vector_table.*"))
@@ -176,17 +166,6 @@ KEEP(*(".openocd_dbg.*"))
  . = 0x20000000;
  . = ALIGN(_region_min_align);
  _image_ram_start = .;
-.ramfunc : ALIGN_WITH_INPUT
-{
- . = ALIGN(_region_min_align); . = ALIGN( 1 << LOG2CEIL(_ramfunc_ram_size));
- _ramfunc_ram_start = .;
- *(.ramfunc)
- *(".ramfunc.*")
- . = ALIGN(_region_min_align); . = ALIGN( 1 << LOG2CEIL(_ramfunc_ram_size));
- _ramfunc_ram_end = .;
-} > SRAM AT> FLASH
-_ramfunc_ram_size = _ramfunc_ram_end - _ramfunc_ram_start;
-_ramfunc_rom_start = LOADADDR(.ramfunc);
 .ramfunc : ALIGN_WITH_INPUT
 {
  . = ALIGN(_region_min_align); . = ALIGN( 1 << LOG2CEIL(_ramfunc_ram_size));
@@ -344,11 +323,6 @@ _ramfunc_rom_start = LOADADDR(.ramfunc);
     __kernel_ram_end = 0x20000000 + (64 * 1K);
     __kernel_ram_size = __kernel_ram_end - __kernel_ram_start;
    
-.intList :
-{
- KEEP(*(.irq_info))
- KEEP(*(.intList))
-} > IDT_LIST
 .intList :
 {
  KEEP(*(.irq_info))
